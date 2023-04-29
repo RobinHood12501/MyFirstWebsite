@@ -1,0 +1,289 @@
+﻿<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<body>
+
+<style>
+* {ï»¿
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+
+}
+
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color:bla;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+</head>
+
+<body>
+<div class="navbar">
+ <div class="topnav" id="myTopnav">
+  <a href="RHtechdef.html" class="active">About</a>
+  <a href="RHadvancingtech.html">Advancing Technology</a>
+  <a href="RHgadget.html">Gadgets</a>
+  <a href="gaming.html">Gaming</a>
+  <a href="feedback.html" class="right">Feedback</a>
+  <a href="login.html" class="right">Login</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+
+  <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }nter
+}
+</script>
+
+
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src="i1.png"
+  style="width:100%">
+  <img class="mySlides" src="i2.png"
+  style="width:100%">
+  <img class="mySlides" src="i3.png"
+  style="width:100%">
+  <img class="mySlides" src="i4.png"
+  style="width:100%">
+  <img class="mySlides" src="i5.png"
+  style="width:100%">
+  <img class="mySlides" src="i6.png"
+  style="width:100%">
+</section>
+
+</div>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+<hr>
+<hr>
+<br>
+<b><i>
+<center>
+ <img src="dot.png"><br>
+	<br>
+    <div><img src="doftech.jpg"></div>
+    <h3> <p>The development of technology may draw upon many fields of knowledge, including scientific, engineering, mathematical, linguistic, and historical knowledge, to achieve some practical result. Technology is often a consequence of science and engineering, although technology as a human activity precedes the two fields.</p> </h3>
+    <br>
+	<hr>
+    <img src="aot.png"><br>
+	<br>
+    <br>
+   <h2> 1.     Improves communication:  </h2>
+   
+<h3> Many businesses are using various business communication technologies to change the way their employees interact and communicate while at work. Employees can use various communication tools to interact or exchange information at work. For example, employees from different departments in a company can use text messaging services or video conferencing tools like Skype to share and exchange information. Virtual communication tools like Skype can be used to share screens and this can help workers to share projects while in different departments, the same application can be used to support group decision making. Also communication technologies can be used in the customer service department to serve customers on time. </h3>
+<br>
+ <br>
+   <h2> 2.     Encourages Innovation and Creativity:  </h2>
+
+<h3> Workers can use different business technologies to create innovative business ideas which can be used in business growth and expansion. Many companies create technological challenges and reward employees who come up with creative ideas using technology. Employees can use internet technology to innovate ways of promoting a business online. Social enterprise networks like Yammer.com can be used by employees to socialize and interact with other creative employees from different organizations, this interaction will result into information exchange and it also encourages brain storming on various work related issues. </h3>
+<br>
+ <br>
+   <h2> 3.     Improves on Human Resource Management:  </h2>
+
+<h3> Technology in the workplace can change the way human resource managers do their job. It improves on the process of screening, recruiting and hiring new employees. Many human resource managers are using internet to advertise job openings. Targeted candidates will be in position to apply for these positions online by submitting their resumes to the human resource manager. The all process saves time and it makes the human resource managers work easier. Technology can also be used to track performance and productivity of each employee at work. Once employees are aware that they are being monitored, their productivity will increase. </h3>
+<br>
+ <br>
+   <h2> 4.     Saves Time:  </h2>
+
+<h3> Technology can be used to automate various tasks at work, this automation will guarantee efficiency and will also increase on production at work. The use of computers to accomplish specific tasks at work creates room of making corrections on instant and it also reduces on human errors. Using databases to capture and store information can facilitate quick decision making at work. Employees can easily access business information via one single database; this information can be edited and saved for later use. Use of internal networks at the workplace can help in sharing of gadgets like printers and scanners, so employees do not have to move to different departments to share technological tools. </h3>
+<br>
+ <br>
+   <h2> 5.     Creates Mobility:  </h2>
+
+<h3> The use of internet and computers to work has eliminated space and time boundaries. Employees can work from anywhere at anytime, this mobility makes employees stay in control of their jobs. Technological tools like virtual meeting applications save us time, we don’t have to be in meetings physically yet information and data will be shared in real-time. For example, a mobile workforce management software allows field workers to access real-time work order information when they’re on the job. </h3>
+<br>
+<br>
+<br>
+<hr>
+<img src="daot.png"><br>
+<br>
+<br>
+   <h2> 1.     Causes Distraction at Work:  </h2>
+
+<h3> Their so many ways technology can distract employees at work. The use of social networks at work can cause so much distraction and it affects the productivity of employees. Some companies have decided to block access to specific websites like Facebook, Twitter and Youtube, because of the unlimited distraction they cause. Other business technologies which cause distraction at work include smartphones, computers and virtual meeting applications like Skype. </h3>
+<br>
+ <br>
+   <h2> 2.       High Maintenance costs:  </h2>
+
+<h3> It is expensive to buy technology, but it is also costly to maintain it. Many small businesses can not afford the cost of hiring a full-time technical person, so they resort to monthly tech contractors who charge them for work done. If business technology tools like computers are not well maintained, their performance will decrease and the process of buying new computers or any other business technology can even be more expensive. </h3>
+<br>
+ <br>
+   <h2> 3.     Makes employees lazy:  </h2>
+
+<h3> Since most tasks are automated by technology, many employees become lazy at work, technology kills their creativity and skills. Simple tasks like calculating sales and tracking inventory are being done with computers, so you will find that employees do not put their brains at work, they can’t solve high-end business problems because a computer or software will do it with no challenge. </h3>
+<br>
+ <br>
+   <h2> 4.     Affects  Workplace Relationships:  </h2>
+
+<h3> Employees communicate via cell phones, text messages, email or virtual video conferencing tools. This type of communication technology eliminates face-to-face communication. Interpersonal communications are important in building workplace relationships because employees will get a chance to know each other in person, some times they can even share non-work related information, this type of interaction is killed by communication technology tools. Employees become more reserved and self-centered; they get buried into their work which can be of great harm to a business. </h3>
+<br>
+ <br>
+   <h2> 5.          It’s Risky:  </h2>
+
+<h3> Though we like the advantages that come with technology at work, it also tends to be risky, especially when it comes to data security. All employees in important decision making positions will need access to private business information; this can pose as a threat, because it can be very difficult to monitor the usage and privacy of this information. Many employees come with flash drives at work, so they can transfer critical business information and use it for their own personal gains. </h3>
+</center>
+</i></b>
+<hr>
+<div class="footer">
+<b><i>
+  <h2>"The SCIENCE of TODAY is the TECHNOLOGY of TOMORROW."</h2>
+  <h2>"Technology is a USEFUL SERVANT but a DANGEROUS MASTER."</h2>
+  <h2>"Technology is a WORD that describes SOMETHING that doesn’t work yet."</h2>
+  <h2>"Technology is, of course, a DOUBLE EDGED SWORD. Fire can COOK OUR FOOD but also BURN US."</h2>
+  <h2>"ONE MACHINE can do the work of FIFTY ORDINARY MEN, but NO MACHINE can do the work of ONE EXTRAORDINARY MAN."</h2>
+</i></b>  
+</div>
+
+</body>
+</html>
